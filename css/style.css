@@ -1,0 +1,67 @@
+body {
+  overflow-x: hidden;
+}
+
+#img-navbar {
+  width: 60px;
+  border-radius: 50px;
+  margin-left: 30px;
+}
+
+.carousel-caption {
+  color: white;
+}
+
+.service-style {
+  margin-top: 15px;
+  background: whitesmoke;
+}
+
+h2::before,
+h2::after {
+  background: blue;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 25%;
+}
+
+h2::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h2::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+#btn-service a:hover {
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-sekunder {
+  background-color: transparent;
+  border-color: #dbdbdb;
+  color: #0b9b6b;
+}
+
+.button-sekunder:hover {
+  background-color: #0b9b6b;
+  border-color: #dbdbdb;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.margin {
+  margin-top: 300px;
+}
+
+@media only screen and (max-width: 576px) {
+  .carousel-inner img {
+    height: 400px;
+  }
+}
